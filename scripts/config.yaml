@@ -1,0 +1,8 @@
+# customizing the downloaded audio for our needs
+ydl_opts:
+  format: "bestaudio/best"
+  audio-format: "wav"
+  outtmpl: "audio.wav"
+  noplaylist: True
+
+links_file: "/data/links.txt" # File containing links to YouTube videos
