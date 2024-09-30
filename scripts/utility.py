@@ -1,7 +1,8 @@
 from __future__ import unicode_literals
 
-from pydub import AudioSegment
 import yaml
+from pydub import AudioSegment
+
 
 def parse_config(config_file):
     with open(config_file, "rb") as f:
